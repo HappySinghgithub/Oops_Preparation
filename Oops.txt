@@ -2,7 +2,7 @@ Ques-1  OOPs
 * Object-Oriented Programming is a methodology to design a program using classes and objects.
 * The main aim of object-oriented programming is to implement real-world entities, for example,
   object, classes, abstraction, inheritance, polymorphism, etc.
-* The main purpose of OOP is to bind together the data and the functions that operate on them so   that no other part of the code can access this data except that function
+* The main purpose of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function
 
 Ques-2	Procedural Programming vs Object-Oriented Programming
 	    Procedural Programming			     Object-Oriented Programming
@@ -20,7 +20,7 @@ Ques-2	Procedural Programming vs Object-Oriented Programming
      *	In procedural programming, overloading is     * Overloading is possible in object-
 	not possible.					oriented programming.
      *  In procedural programming, there is no 	      * In object-oriented programming, the 
-	concept of data hiding and inheritance		concept of data hiding and inheritance 									is used.
+	concept of data hiding and inheritance		concept of data hiding and inheritance is used.
      *  Procedural programming is based on the 	      * Object-oriented programming is based on 
 	unreal world.					the real world.
      *  Examples: C, FORTRAN, Pascal, Basic, etc.     * Examples: C++, Java, Python, C#, etc.
@@ -28,9 +28,9 @@ Ques-2	Procedural Programming vs Object-Oriented Programming
 
 Ques-3       Advantages of OOP:
      *  Re-usability: Write once and use it multiple times, we can achieve this by using class.
-     *  Redundancy: Inheritance is the good feature for data redundancy. If we need a same 	         functionality in multiple class, we can write a common class for the same functionality 		and inherit that class to subclass.
-     *	Easy Maintenance: It is easy to maintain and modify existing code, as new objects can be 	created with small differences to existing ones.
-     *	Security: Using data hiding and abstraction only necessary data will be provided, thus 			maintains the security of data.
+     *  Redundancy: Inheritance is the good feature for data redundancy. If we need a same functionality in multiple class, we can write a common class for the same 	     functionality and inherit that class to subclass.
+     *	Easy Maintenance: It is easy to maintain and modify existing code, as new objects can be created with small differences to existing ones.
+     *	Security: Using data hiding and abstraction only necessary data will be provided, thus maintains the security of data.
 
 	     Disadvantages of OOP:
 	Size: Object-Oriented Programs are much larger than other programs.
@@ -38,19 +38,19 @@ Ques-3       Advantages of OOP:
 	Speed: Object-Oriented Programs are slower than other programs, because of their size.
 
 Ques-4     Structured Programming
-     *  Structured Programming is a type of programming that generally converts large or complex 	programs into small pieces of code.
-     *  These small pieces of codes are usually known as functions or modules or sub-programs of 	large complex programs.
+     *  Structured Programming is a type of programming that generally converts large or complex programs into small pieces of code.
+     *  These small pieces of codes are usually known as functions or modules or sub-programs of large complex programs.
      *	It is more user-friendly and easy to understand as compared to unstructured programming.
      *  Structured programs do not allow code duplication. 	
-     * 	Structured programs use a greater number of data types as compared to unstructured 	programs.	
+     * 	Structured programs use a greater number of data types as compared to unstructured programs.	
      *  It does not use GOTO to control the flow of execution. Instead, it uses loops. 	
 
 	   Unstructured Programming
-     *	Unstructured Programming is a type of programming that generally executes in sequential 		order i.e., these programs just not jumped from any line of code and each line gets 			executed sequentially.
-     *	It is also known as non-structured programming that is capable of creating turning-			complete algorithms.
-     *	It is less user-friendly and little hard to understand as compared to structured 			programming.
+     *	Unstructured Programming is a type of programming that generally executes in sequential order i.e., these programs just not jumped from any line of code and 	     each line gets executed sequentially.
+     *	It is also known as non-structured programming that is capable of creating turning-complete algorithms.
+     *	It is less user-friendly and little hard to understand as compared to structured programming.
      * 	These programs allow code duplication.
-     *  Unstructured programs use a limited number of data types as compared to structured 		programs.	
+     *  Unstructured programs use a limited number of data types as compared to structured programs.	
      *  It uses GOTO to control the flow of execution.
 
 Ques-5 	   CLASS
@@ -63,23 +63,24 @@ Ques-5 	   CLASS
      * 	An object contains an address and takes up some space in memory. 
      *	For example, a chair, pen, table, keyboard, bike, etc. 
      *	It can be physical or logical.
-	Example: A dog is an object because it has states like color, name, breed, etc. as well 	as behaviors like barking, eating, etc.
+	Example: A dog is an object because it has states like color, name, breed, etc. as well as behaviors like barking, eating, etc.
 	
 
 	Class vs Object
-		Class						Object
-     *  A class is a blueprint for declaring and     *  An object is a class instance that 			creating objects.				allows programmers to use variables and 								methods from inside the class
-     *  Memory is not allocated to classes. 	     *  When objects are created, memory is 			Classes have no physical existence.		allocated to them in the heap memory. 		
-     *  We can declare a class only once.	     *	A class can be used to create many 									objects. 					
-     *  Class is a logical entity		     *  An object is a physical entity
-     *  Class is created using the class keyword     *  Objects are created through new keyword 		like class Dog{}				like Dog d = new Dog();. We can also 									create an object using the newInstance() 							method, clone() method, fatory method 									and using deserialization. 	
-     *  Example: Mobile is a class.		     *  If Mobile is the class then iphone, 									redmi, blackberry, samsung are its 									objects which have different properties 								and behaviours.		
+		Class								Object
+     *  A class is a blueprint for declaring and creating object     *  An object is a class instance that allows programmers to use variables and 					     						methods from inside the class
+     *  Memory is not allocated to classes. 	     		     *  When objects are created, memory is 		
+     	Classes have no physical existence.				allocated to them in the heap memory. 		
+     *  We can declare a class only once.	   		     *	A class can be used to create many objects. 					
+     *  Class is a logical entity		    		     *  An object is a physical entity
+     *  Class is created using the class keyword    		     *  Objects are created through new keyword like Dog d = new Dog();. We can also 			like class Dog{}						create an object using the newInstance() method, clone() method, fatory method and using 									 deserialization. 	
+     *  Example: Mobile is a class.		    		    *   If Mobile is the class then iphone, redmi, blackberry, samsung are its objects which have 									  different properties and behaviours.		
 	
 Ques-6      Encapsulation
-	Encapsulation is a process of wrapping code and data together into a single unit, for 	example, a capsule which is mixed of several medicines.
-	The variables of a class will be hidden from other classes, and can be accessed only 		through the methods of their current class.
-	We can create a encapsulated class in Java by making all the data members of the class 			private.
+	Encapsulation is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
+	The variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class.
+	We can create a encapsulated class in Java by making all the data members of the class private.
 	To achieve encapsulation in Java −
 	Declare the variables of a class as private.
-	provide public setter and getter methods to access and update the value of a private 	variable
-	The main AIM of encapsulation is to hide the internal implementation of the class from 		the outside class.
+	provide public setter and getter methods to access and update the value of a private variable
+	The main AIM of encapsulation is to hide the internal implementation of the class from the outside class.
