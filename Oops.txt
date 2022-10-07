@@ -67,14 +67,15 @@ Ques-5 	   CLASS
 	
 
 	Class vs Object
-		Class								Object
+			Class								Object
      *  A class is a blueprint for declaring and creating object     *  An object is a class instance that allows programmers to use variables and 					     						methods from inside the class
      *  Memory is not allocated to classes. 	     		     *  When objects are created, memory is 		
      	Classes have no physical existence.				allocated to them in the heap memory. 		
      *  We can declare a class only once.	   		     *	A class can be used to create many objects. 					
      *  Class is a logical entity		    		     *  An object is a physical entity
-     *  Class is created using the class keyword    		     *  Objects are created through new keyword like Dog d = new Dog();. We can also 			like class Dog{}						create an object using the newInstance() method, clone() method, fatory method and using 									 deserialization. 	
-     *  Example: Mobile is a class.		    		     *   If Mobile is the class then iphone, redmi, blackberry, samsung are its objects which have 									  different properties and behaviours.		
+     *  Class is created using the class keyword    		     *  Objects are created through new keyword like Dog d = new Dog();. 			
+      	class Dog{}					       		We can also like create an object using the newInstance() method, clone() method, fatory method 									and using deserialization. 	
+     *  Example: Mobile is a class.		    		     *  If Mobile is the class then iphone, redmi, blackberry, samsung are its objects which have 									  different properties and behaviours.		
 	
 Ques-6      Encapsulation
 	Encapsulation is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
