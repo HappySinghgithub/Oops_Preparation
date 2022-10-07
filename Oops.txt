@@ -74,7 +74,7 @@ Ques-5 	   CLASS
      *  We can declare a class only once.	   		     *	A class can be used to create many objects. 					
      *  Class is a logical entity		    		     *  An object is a physical entity
      *  Class is created using the class keyword    		     *  Objects are created through new keyword like Dog d = new Dog();. We can also 			like class Dog{}						create an object using the newInstance() method, clone() method, fatory method and using 									 deserialization. 	
-     *  Example: Mobile is a class.		    		    *   If Mobile is the class then iphone, redmi, blackberry, samsung are its objects which have 									  different properties and behaviours.		
+     *  Example: Mobile is a class.		    		     *   If Mobile is the class then iphone, redmi, blackberry, samsung are its objects which have 									  different properties and behaviours.		
 	
 Ques-6      Encapsulation
 	Encapsulation is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
