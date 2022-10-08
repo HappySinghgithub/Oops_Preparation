@@ -2,7 +2,8 @@ Ques-1  OOPs
 * Object-Oriented Programming is a methodology to design a program using classes and objects.
 * The main aim of object-oriented programming is to implement real-world entities, for example,
   object, classes, abstraction, inheritance, polymorphism, etc.
-* The main purpose of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function
+* The main purpose of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that 
+  function
 
 Ques-2	Procedural Programming vs Object-Oriented Programming
 	    Procedural Programming			     Object-Oriented Programming
