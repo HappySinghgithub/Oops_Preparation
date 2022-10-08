@@ -66,6 +66,11 @@ Ques-5 	   CLASS
      *	It can be physical or logical.
 	Example: A dog is an object because it has states like color, name, breed, etc. as well as behaviors like barking, eating, etc.
 	
+	There are many ways to create an object in java:-
+	Java newInstance() method
+	The newInstance() method of Class class is used to create a new instance of the class dynamically. The newInstance() method of Class class can invoke only no 
+	arg constructor of the class. This newInstance () method of the class does not consider any parameters or arguments from the class, which means that it doesn’t 
+	possess any constructor; thus, it can be called the no-arg constructor for one class.
 
 	Class vs Object
 			Class								Object
