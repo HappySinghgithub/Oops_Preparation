@@ -67,11 +67,20 @@ Ques-5 	   CLASS
 	Example: A dog is an object because it has states like color, name, breed, etc. as well as behaviors like barking, eating, etc.
 	
 	There are many ways to create an object in java:-
-	Java newInstance() method
+     1.	Java newInstance() method
 	The newInstance() method of Class class is used to create a new instance of the class dynamically. The newInstance() method of Class class can invoke only no 
 	arg constructor of the class. This newInstance () method of the class does not consider any parameters or arguments from the class, which means that it doesn’t 
 	possess any constructor; thus, it can be called the no-arg constructor for one class.
-
+     2. Clone method()
+     	The clone method() is a way to create exact copy of an object.
+	Java provides an assignment operator to copy the values but no operator to copy the object. Object class has a clone method which can be used to copy the 
+	values of an object without any side-effect. Assignment operator has a side-effect that when a reference is assigned to another reference then a new object is 
+	not created and both the reference point to the same object. This means if we change the value in one object then same will reflect in another object as well. 
+	clone() method handles this problem.
+     3. Factory method()
+     	Factory method is a creational design pattern which solves the problem of creating product objects without specifying their concrete classes. The Factory 
+	Method defines a method, which should be used for creating objects instead of using a direct constructor call
+	
 	Class vs Object
 			Class								Object
      *  A class is a blueprint for declaring and creating object     *  An object is a class instance that allows programmers to use variables and 
