@@ -44,7 +44,8 @@ Ques-4     Structured Programming
      *  It does not use GOTO to control the flow of execution. Instead, it uses loops. 	
 
 	   Unstructured Programming
-     *	Unstructured Programming is a type of programming that generally executes in sequential order i.e., these programs just not jumped from any line of code and 	     each line gets executed sequentially.
+     *	Unstructured Programming is a type of programming that generally executes in sequential order i.e., these programs just not jumped from any line of code and 
+        each line gets executed sequentially.
      *	It is also known as non-structured programming that is capable of creating turning-complete algorithms.
      *	It is less user-friendly and little hard to understand as compared to structured programming.
      * 	These programs allow code duplication.
