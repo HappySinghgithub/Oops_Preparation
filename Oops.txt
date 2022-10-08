@@ -19,8 +19,6 @@ Ques-2	Procedural Programming vs Object-Oriented Programming
 	secure.
      *	In procedural programming, overloading is     * Overloading is possible in object-
 	not possible.					oriented programming.
-     *  In procedural programming, there is no 	      * In object-oriented programming, the 
-	concept of data hiding and inheritance		concept of data hiding and inheritance is used.
      *  Procedural programming is based on the 	      * Object-oriented programming is based on 
 	unreal world.					the real world.
      *  Examples: C, FORTRAN, Pascal, Basic, etc.     * Examples: C++, Java, Python, C#, etc.
