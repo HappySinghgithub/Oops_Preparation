@@ -27,7 +27,8 @@ Ques-2	Procedural Programming vs Object-Oriented Programming
 
 Ques-3       Advantages of OOP:
      *  Re-usability: Write once and use it multiple times, we can achieve this by using class.
-     *  Redundancy: Inheritance is the good feature for data redundancy. If we need a same functionality in multiple class, we can write a common class for the same 	     functionality and inherit that class to subclass.
+     *  Redundancy: Inheritance is the good feature for data redundancy. If we need a same functionality in multiple class, we can write a common class for the same 
+        functionality and inherit that class to subclass.
      *	Easy Maintenance: It is easy to maintain and modify existing code, as new objects can be created with small differences to existing ones.
      *	Security: Using data hiding and abstraction only necessary data will be provided, thus maintains the security of data.
 
@@ -68,14 +69,17 @@ Ques-5 	   CLASS
 
 	Class vs Object
 			Class								Object
-     *  A class is a blueprint for declaring and creating object     *  An object is a class instance that allows programmers to use variables and 					     						methods from inside the class
+     *  A class is a blueprint for declaring and creating object     *  An object is a class instance that allows programmers to use variables and 
+                                              				methods from inside the class
      *  Memory is not allocated to classes. 	     		     *  When objects are created, memory is 		
      	Classes have no physical existence.				allocated to them in the heap memory. 		
      *  We can declare a class only once.	   		     *	A class can be used to create many objects. 					
      *  Class is a logical entity		    		     *  An object is a physical entity
      *  Class is created using the class keyword    		     *  Objects are created through new keyword like Dog d = new Dog();. 			
-      	class Dog{}					       		We can also like create an object using the newInstance() method, clone() method, fatory method 									and using deserialization. 	
-     *  Example: Mobile is a class.		    		     *  If Mobile is the class then iphone, redmi, blackberry, samsung are its objects which have 									  different properties and behaviours.		
+      	class Dog{}					       		We can also like create an object using the newInstance() method, clone() method, fatory method 
+									and using deserialization. 	
+     *  Example: Mobile is a class.		    		     *  If Mobile is the class then iphone, redmi, blackberry, samsung are its objects which have 
+     									different properties and behaviours.		
 	
 Ques-6      Encapsulation
 	Encapsulation is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
