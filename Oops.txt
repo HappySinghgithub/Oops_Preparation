@@ -55,16 +55,46 @@ Ques-4     Structured Programming
      *  It uses GOTO to control the flow of execution.
 
 Ques-5 	   CLASS
+     *  It is a logical entity. It can't be physical 	
      *	Collection of objects is called class. It is a logical entity.	
      *	It is also a blueprint from which you can create an individual object. 
      *	Class doesn't consume any space.
-
-	   OBJECT
+     
+     A class in Java can contain:
+	       - Fields
+	       - Methods
+	       - Constructors
+	       - Blocks
+	       - Nested class and interface
+	       
+Ques-6 Instance variable in Java
+	A variable which is created inside the class but outside the method is known as an instance variable. Instance variable doesn't get memory at compile time. It 
+	gets memory at runtime when an object or instance is created. That is why it is known as an instance variable.
+Ques-7 Method
+	method is like a function which is used to expose the behavior of an object.
+	A method is a block of code which only runs when it is called.
+	You can pass data, known as parameters, into a method.
+	     - Create a Method
+		A method must be declared within a class. It is defined with the name of the method, followed by parentheses (). Java provides some pre-defined 
+		methods, such as System.out.println(), but you can also create your own methods to perform certain actions:
+	     - Call a Method
+	        To call a method in Java, write the method's name followed by two parentheses () and a semicolon;
+		
+	  
+	  OBJECT
+     *  An object is a real-world entity.
+     *	An object is a runtime entity.
      * 	Any entity that has state and behavior is known as an object.
      * 	An object contains an address and takes up some space in memory. 
      *	For example, a chair, pen, table, keyboard, bike, etc. 
      *	It can be physical or logical.
-	Example: A dog is an object because it has states like color, name, breed, etc. as well as behaviors like barking, eating, etc.
+	Example: Pen is an object. Its name is Reynolds; color is white, known as its state. It is used to write, so writing is its behavior.
+	
+	3 Ways to initialize object
+	There are 3 ways to initialize object in Java.
+	  - By reference variable
+	  - By method
+	  - By constructor
 	
 	There are many ways to create an object in java:-
      1.	Java newInstance() method
