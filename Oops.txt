@@ -124,8 +124,23 @@ Ques-7 Method
 									and using deserialization. 	
      *  Example: Mobile is a class.		    		     *  If Mobile is the class then iphone, redmi, blackberry, samsung are its objects which have 
      									different properties and behaviours.		
-	
-Ques-6      Encapsulation
+
+Ques-9	Constructor
+     *  constructor is used to initialize an object(not to create an object)
+     *  constructor is a block of code (similar to method) having same name as that of class name.
+     *	constructor does not have any return type, not even 'void'.
+     * 	only 4 modifier are applicable for costructor i.e. public, private, protected, default. (static, final, synchronized etc cannot be used in constructor).
+     *	constructor execute automatically when we create an object.
+     Types of Constructor:-
+     1. Default Constructor
+     A constructor is called "Default Constructor" when it doesn't have any parameter.
+     If we don’t create a constructor in a class, then the compiler creates a default constructor(with no arguments) for the class. And if we write a constructor with 
+     arguments or no arguments then the compiler does not create a default constructor. 
+     2. Parameterized constructor
+     A constructor that has parameters is known as parameterized constructor. we pass the value of the parameter in the object of the class in parameterized 
+     constructor.
+
+Ques-8      Encapsulation
 	Encapsulation is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
 	The variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class.
 	We can create a encapsulated class in Java by making all the data members of the class private.
