@@ -149,10 +149,20 @@ Ques-9 Static method
 	- Block
 	- Nested class
 	1. static variable
-	   If you declare any variable as static, it is known as a static variable. The static variable can be used to refer to the common property of all objects 
+	   If we declare any variable as static, it is known as a static variable. The static variable can be used to refer to the common property of all objects 
 	   for example, the company name of employees, college name of students, etc. The static variable gets memory only once in the class area at the time of class 
 	   loading.
-
+	   It makes your program memory efficient (i.e., it saves memory)
+	2. static block
+	   Is used to initialize the static data member.
+	   It is executed before the main method at the time of classloading.
+	3. static method
+	   If we apply static keyword with any method, it is known as static method.
+	   A static method belongs to the class rather than the object of a class.
+	   A static method can be invoked without the need for creating an instance of a class.
+	   A static method can access static data member and can change the value of it.
+	   
+	   
 Ques-8      Encapsulation
 	Encapsulation is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
 	The variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class.
