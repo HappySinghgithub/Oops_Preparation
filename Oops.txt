@@ -162,7 +162,21 @@ Ques-9 Static method
 	   A static method can be invoked without the need for creating an instance of a class.
 	   A static method can access static data member and can change the value of it.
 	   
-	   
+Ques-10	This keyword
+	this is a reference variable that refers to the current object.
+	1) this: to refer current class instance variable
+	The this keyword can be used to refer current class instance variable. If there is ambiguity between the instance variables and parameters, this keyword 
+	resolves the problem of ambiguity.
+	2) this: to invoke current class method
+	You may invoke the method of the current class by using the this keyword. If you don't use the this keyword, compiler automatically adds this keyword while 
+	invoking the method. 
+	3) this() : to invoke current class constructor
+	The this() constructor call can be used to invoke the current class constructor. It is used to reuse the constructor. 
+	4) this: to pass as an argument in the method
+	The this keyword can also be passed as an argument in the method. It is mainly used in the event handling.
+	5) this: to pass as argument in the constructor call
+	We can pass the this keyword in the constructor also. It is useful if we have to use one object in multiple classes.
+	  
 Ques-8      Encapsulation
 	Encapsulation is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
 	The variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class.
