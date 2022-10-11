@@ -55,8 +55,7 @@ Ques-4     Structured Programming
      *  It uses GOTO to control the flow of execution.
 
 Ques-5 	   CLASS
-     *  It is a logical entity. It can't be physical 	
-     *	Collection of objects is called class. It is a logical entity.	
+     *	Collection of objects is called class. It is a logical entity. It can't be physical	
      *	It is also a blueprint from which you can create an individual object. 
      *	Class doesn't consume any space.
      
