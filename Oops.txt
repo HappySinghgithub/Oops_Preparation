@@ -237,10 +237,15 @@ Ques-13 Polymorphism
 		* Java doesn't support operator overloading explicitly
 		* only "+" operator can be used for operator overloading
 		* "+" can be used for addition and it is also used for to concatenation
-	2. Dynamic polymorphism/run time
-
-Note: But Java doesn’t support the Operator Overloading.
-	* Dynamic polymorphism/runtime polymorphism/late binding
+		Note: But Java doesn’t support the Operator Overloading.
+	2. Dynamic polymorphism/runtime polymorphism/late binding
+	     (a). Runtime Polymorphism:- If a class is having more than one function with the same name & with the same parameter is known as function overriding.
+	     	       * same method name
+		       * Different class
+		       * Same argument
+		         - Number of argument
+			 - Sequence of argument
+			 - Types of argument
 	
 Ques-8      Encapsulation
 	Encapsulation is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
