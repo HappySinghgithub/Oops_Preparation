@@ -200,15 +200,20 @@ Ques-11	Inheritance
 	different, there will be compile time error.
 	
 Ques-12	Associatioin
+	Two or more than class are not tightly couple in the case of Association
 	Association is a relation between two separate classes which establishes through their Objects. Association can be one-to-one, one-to-many, many-to-one, many-
 	to-many.
 	Aggregation
+	If more than one class have a weak bonding, known as Aggregation
+	Eg:- Car,Music (Car can easily run without music and music can also play without car)
 	It represents Has-A’s relationship.
 	It is a unidirectional association i.e. a one-way relationship. For example, a department can have students but vice versa is not possible and thus 
 	unidirectional in nature.
 	In Aggregation, both the entries can survive individually which means ending one entity will not affect the other entity.
 	It represents a Has-A relationship. In the above example: Student Has-A name. Student Has-A ID. Student Has-A Dept. Department Has-A Students
 	Composition
+	If more than one class have a strong bonding, known as Composition
+	Eg:- Car, Engine (Car is useless without engine and engine is useless without car)
 	Composition is a restricted form of Aggregation in which two entities are highly dependent on each other.  
 
 It represents part-of relationship.
