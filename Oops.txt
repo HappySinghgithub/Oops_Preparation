@@ -218,7 +218,30 @@ Ques-12	Associatioin
 
 It represents part-of relationship.
 In composition, both entities are dependent on each other.
-	  
+
+Ques-13 Polymorphism
+	Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to 
+	refer to a child class object.
+	There are two types of polymorphism:-
+	1. Static polymorphism/compile time polymorphism/early binding
+	Static polymorphism is a type of polymorphism that collects the information to call a method during compile time
+	It is achieved by function overloading or operator overloading. 
+	     (a). Method overloading:- If a class is having more than one function with same name having different parameter is called function overloading.
+	     		* Method name same
+			* class name same
+			* Different argument
+			   - Number of argument
+			   - Sequence of argument
+			   - Types of argument
+	     (b). Operator overloading:- If we have use "+" operator for multiple work, known as Operator overloading
+		* Java doesn't support operator overloading explicitly
+		* only "+" operator can be used for operator overloading
+		* "+" can be used for addition and it is also used for to concatenation
+	2. Dynamic polymorphism/run time
+
+Note: But Java doesn’t support the Operator Overloading.
+	* Dynamic polymorphism/runtime polymorphism/late binding
+	
 Ques-8      Encapsulation
 	Encapsulation is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
 	The variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class.
