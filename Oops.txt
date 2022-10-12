@@ -247,6 +247,15 @@ Ques-13 Polymorphism
 			 - Sequence of argument
 			 - Types of argument
 	
+Ques-14	Super Keyword
+	The super keyword is a reference variable which is used to refer immediate parent class object.
+	Usage of Java super Keyword
+	* super can be used to refer immediate parent class instance variable.
+	       - We can use super keyword to access the data member or field of parent class. It is used if parent class and child class have same fields.
+	* super can be used to invoke immediate parent class method.
+	       - It should be used if subclass contains the same method as parent class. In other words, it is used if method is overridden.	
+	* super() can be used to invoke immediate parent class constructor.
+	
 Ques-8      Encapsulation
 	Encapsulation is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
 	The variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class.
