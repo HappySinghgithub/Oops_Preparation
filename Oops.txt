@@ -262,7 +262,21 @@ Ques-15 Final Keyword
 	  - variable : If we make any variable as final, we cannot change the value of final variable(It will be constant).
 	  - method : If you make any method as final, you cannot override it.
 	  - class : If you make any class as final, you cannot extend it or inherit it.
-	
+	  
+Ques-16	Abstract class
+	A class which is declared with the abstract keyword is known as an abstract class. It can have abstract and non-abstract methods
+	For example, sending SMS where you type the text and send the message. You don't know the internal processing about the message delivery.
+	There are two ways to achieve abstraction in java
+	   * Abstract class (0 to 100%)
+	   * Interface (100%)
+	Abstract class:- A class which is declared as abstract is known as an abstract class. It can have abstract and non-abstract methods. 
+	Abstract Method:- 
+		- A method without body is known as abstract method.
+		- A method must always be declared in an abstract class or we can say that if a class has an abstract method, it should be declared abstract as well.
+		- If a regular class extends an abstract class, then the class must have to implement all the abstract method of abstract parent class or it has to be 
+		  declared abstract as well.
+		- Abstract class cannot be instantiated means we can't create an object of Abstract clas
+
 Ques-8      Encapsulation
 	Encapsulation is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
 	The variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class.
