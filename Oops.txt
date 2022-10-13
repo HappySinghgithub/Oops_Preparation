@@ -258,6 +258,10 @@ Ques-14	Super Keyword
 	
 Ques-15 Final Keyword
 	Final keyword is used to restrict the user.
+	Final can be:
+	  - variable : If we make any variable as final, we cannot change the value of final variable(It will be constant).
+	  - method : If you make any method as final, you cannot override it.
+	  - class : If you make any class as final, you cannot extend it or inherit it.
 	
 Ques-8      Encapsulation
 	Encapsulation is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
